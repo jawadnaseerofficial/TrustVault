@@ -1,0 +1,37 @@
+create database trustvault;
+
+use trustvault; 
+
+create table signup(formno varchar(20), name varchar(20) , father_name varchar(20), dob varchar(20), gender varchar(30), email varchar(50), marital_status varchar(20), address varchar(20), city varchar(25), state varchar(25), pin varchar(20) )
+
+show tables;
+
+select * from signup;
+
+
+
+create table signuptwo(formno varchar(20), religion varchar(20), category varchar(20), income varchar(20), education varchar(20), occupation varchar(20), pan varchar(20), id varchar(20), seniorcitizen varchar(20), existingaccount varchar(20)) 
+
+show tables;
+
+select * from signuptwo;
+
+
+create table signupthree(formno varchar(20), accounttype varchar(40), cardnumber varchar(16), pin varchar(10), facility varchar(100))
+create table login(formno varchar(20), cardnumber varchar(25), pin varchar(10));
+
+
+select * from signupthree;
+
+
+DROP TABLE login;
+
+
+select * from login;
+
+create table bank(pin varchar(10), date varchar(50), type varchar(20), amount varchar(20) )
+
+select * from bank;
+
+
+
